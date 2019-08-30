@@ -1,5 +1,5 @@
 require("dotenv").config();
-
+const axios = require('axios');
 var keys = require("./keys.js");
 var Spotify = require("node-spotify-api");
 var spotify = new Spotify(keys.spotify);
@@ -34,7 +34,7 @@ switch (command) {
         spotifyAPI(searchInput);
         break;
     case "movie-this":
-        ombdAPI();
+        ombdAPI(searchInput.split(" ").join("+"));
         break;
     case "do-what-it-says":
         randomFile();
@@ -74,4 +74,27 @@ function spotifyAPI(track) {
 
 // OMBD API
 
-function ()
+function ombdAPI(movie) {
+
+
+    axios.get(`http://www.omdbapi.com/?t=${movie}&apikey=trilogy`)
+        .then(function (response) {
+            // handle success
+            console.log("-----------------------------------------------------");
+            console.log(`Movie title: ${response.data.Title}`);
+            console.log(`Year: ${response.data.Year}`);
+            console.log(`IMBD rating: ${response.data.imdbRating}`);
+            console.log(`Rotten Tomatoes rating: ${response.data.Ratings[1].Value}`);
+            console.log(`Country: ${response.data.Country}`);
+            console.log(`Language: ${response.data.Language}`);
+            console.log(`Plot: ${response.data.Plot}`);
+            console.log(`Actors: ${response.data.Actors}`);
+
+            console.log(response.data.Ratings)
+        })
+        .catch(function (error) {
+            // handle error
+            console.log(error);
+        })
+
+}
