@@ -34,6 +34,10 @@ switch (command) {
         spotifyAPI(searchInput);
         break;
     case "movie-this":
+        if (searchInput == false) {
+            ombdAPI("Mr. Nobody")
+            break;
+        }
         ombdAPI(searchInput.split(" ").join("+"));
         break;
     case "do-what-it-says":
@@ -90,7 +94,6 @@ function ombdAPI(movie) {
             console.log(`Plot: ${response.data.Plot}`);
             console.log(`Actors: ${response.data.Actors}`);
 
-            console.log(response.data.Ratings)
         })
         .catch(function (error) {
             // handle error
