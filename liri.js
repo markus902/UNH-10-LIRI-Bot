@@ -115,3 +115,5 @@ function bandsAPI(band) {
             console.log(error);
         })
 };
+
+//change
