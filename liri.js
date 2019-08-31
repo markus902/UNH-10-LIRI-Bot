@@ -99,5 +99,19 @@ function ombdAPI(movie) {
             // handle error
             console.log(error);
         })
+};
 
-}
+//bandsAPI
+
+function bandsAPI(band) {
+    axios.get(`https://rest.bandsintown.com/artists/${band}?app_id=codingbootcamp`)
+        .then(function (response) {
+            // handle success
+            console.log(response)
+
+        })
+        .catch(function (error) {
+            // handle error
+            console.log(error);
+        })
+};
