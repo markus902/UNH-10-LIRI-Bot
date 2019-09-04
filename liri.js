@@ -1,47 +1,37 @@
 require("dotenv").config();
+var moment = require('moment');
 const axios = require('axios');
 var keys = require("./keys.js");
 var Spotify = require("node-spotify-api");
 var spotify = new Spotify(keys.spotify);
+var fs = require("fs");
+var formPhrase = require('font-ascii').default
 
 var command = process.argv[2];
 var searchInput = process.argv.slice(3).join(" ");
-// var searchInput = command.join(" ");
 
+formPhrase('LIRI Bot', {
+    typephase: 'Ghost',
+    color: 'blue'
+});
+
+console.log("-----------------------------------------------------");
 console.log("Command: ", command);
 console.log("Arguments: ", searchInput);
+console.log("-----------------------------------------------------");
 
 switch (command) {
     case "concert-this":
-        bandsAPI();
+        bandsAPI(searchInput);
         break;
     case "spotify-this-song":
-        if (searchInput == false) {
-            spotify
-                .request('https://api.spotify.com/v1/tracks/0hrBpAOgrt8RXigk83LLNE')
-                .then(function (response) {
-                    console.log("-----------------------------------------------------");
-                    console.log(`Song title: ${response.name}`);
-                    console.log(`Artist: ${response.artists[0].name}`);
-                    console.log(`Preview Link: ${response.external_urls.spotify}`);
-                    console.log(`Album: ${response.album.name}`);
-                })
-                .catch(function (err) {
-                    console.error('Error occurred: ' + err);
-                });
-            break;
-        }
         spotifyAPI(searchInput);
         break;
     case "movie-this":
-        if (searchInput == false) {
-            ombdAPI("Mr. Nobody")
-            break;
-        }
         ombdAPI(searchInput.split(" ").join("+"));
         break;
     case "do-what-it-says":
-        randomFile();
+        doWhat();
         break;
     case undefined:
         console.log("Please tell me what you want to do.");
@@ -54,33 +44,50 @@ switch (command) {
 
 function spotifyAPI(track) {
 
-    spotify
-        .search({
-            type: 'track',
-            query: track,
-            limit: 10
-        })
-        .then(function (response) {
-
-            for (i = 1; i < response.tracks.items.length; i++) {
+    if (searchInput == false) {
+        spotify
+            .request('https://api.spotify.com/v1/tracks/0hrBpAOgrt8RXigk83LLNE')
+            .then(function (response) {
                 console.log("-----------------------------------------------------");
-                console.log(`Song title: ${response.tracks.items[i].name}`);
-                console.log(`Artist: ${response.tracks.items[i].album.artists[0].name}`);
-                console.log(`Preview Link: ${response.tracks.items[i].external_urls.spotify}`);
-                console.log(`Album: ${response.tracks.items[i].album.name}`);
-            }
-        })
-        .catch(function (err) {
-            console.log(err);
-        });
+                console.log(`Song title: ${response.name}`);
+                console.log(`Artist: ${response.artists[0].name}`);
+                console.log(`Preview Link: ${response.external_urls.spotify}`);
+                console.log(`Album: ${response.album.name}`);
+            })
+            .catch(function (err) {
+                console.error('Error occurred: ' + err);
+            });
+    } else {
 
+        spotify
+            .search({
+                type: 'track',
+                query: track,
+                limit: 10
+            })
+            .then(function (response) {
+
+                for (i = 1; i < response.tracks.items.length; i++) {
+                    console.log("-----------------------------------------------------");
+                    console.log(`Song title: ${response.tracks.items[i].name}`);
+                    console.log(`Artist: ${response.tracks.items[i].album.artists[0].name}`);
+                    console.log(`Preview Link: ${response.tracks.items[i].external_urls.spotify}`);
+                    console.log(`Album: ${response.tracks.items[i].album.name}`);
+                }
+            })
+            .catch(function (err) {
+                console.log(err);
+            });
+    }
 }
 
 // OMBD API
 
 function ombdAPI(movie) {
 
-
+    if (searchInput == false) {
+        movie = "Mr. Nobody"
+    }
     axios.get(`http://www.omdbapi.com/?t=${movie}&apikey=trilogy`)
         .then(function (response) {
             // handle success
@@ -104,10 +111,19 @@ function ombdAPI(movie) {
 //bandsAPI
 
 function bandsAPI(band) {
-    axios.get(`https://rest.bandsintown.com/artists/${band}?app_id=codingbootcamp`)
+    axios.get(`https://rest.bandsintown.com/artists/${band}/events?app_id=codingbootcamp`)
         .then(function (response) {
             // handle success
-            console.log(response)
+            response.data.forEach(element => {
+                console.log("-----------------------------------------------------");
+                console.log(`${element.venue.name}`);
+                console.log(`${element.venue.city}, ${element.venue.region || element.venue.country}`, );
+                console.log(`${ moment(element.datetime).format('MMMM Do YYYY, h:mm:ss a')}`);
+                // console.log(element.venue.city);
+                // console.log(element.venue.city);
+
+            });
+
 
         })
         .catch(function (error) {
@@ -115,5 +131,16 @@ function bandsAPI(band) {
             console.log(error);
         })
 };
+
+function doWhat() {
+    fs.readFile("random.txt", "utf8", (error, data) => {
+        if (error) throw error;
+        let rdata = data.split(",");
+        console.log(rdata);
+
+
+        spotifyAPI(rdata[1]);
+    });
+}
 
 //change
