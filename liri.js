@@ -12,6 +12,8 @@ var formPhrase = require('font-ascii').default;
 // Input variables 
 var command = process.argv[2];
 var searchInput = process.argv.slice(3).join(" ");
+var data = [];
+var line = "---------------------------------------------------------------------"
 
 
 // Spotify API
@@ -22,11 +24,13 @@ function spotifyAPI(track) {
         spotify
             .request('https://api.spotify.com/v1/tracks/0hrBpAOgrt8RXigk83LLNE')
             .then(function (response) {
-                console.log("-----------------------------------------------------");
-                console.log(`Song title: ${response.name}`);
-                console.log(`Artist: ${response.artists[0].name}`);
-                console.log(`Preview Link: ${response.external_urls.spotify}`);
-                console.log(`Album: ${response.album.name}`);
+
+                data.push(line);
+                data.push(`Song title: ${response.name}`);
+                data.push(`Artist: ${response.artists[0].name}`);
+                data.push(`Preview Link: ${response.external_urls.spotify}`);
+                data.push(`Album: ${response.album.name}`);
+                logData();
             })
             .catch(function (err) {
                 console.error('Error occurred: ' + err);
@@ -42,11 +46,12 @@ function spotifyAPI(track) {
             .then(function (response) {
 
                 for (i = 1; i < response.tracks.items.length; i++) {
-                    console.log("-----------------------------------------------------");
-                    console.log(`Song title: ${response.tracks.items[i].name}`);
-                    console.log(`Artist: ${response.tracks.items[i].album.artists[0].name}`);
-                    console.log(`Preview Link: ${response.tracks.items[i].external_urls.spotify}`);
-                    console.log(`Album: ${response.tracks.items[i].album.name}`);
+                    data.push(line);
+                    data.push(`Song title: ${response.tracks.items[i].name}`);
+                    data.push(`Artist: ${response.tracks.items[i].album.artists[0].name}`);
+                    data.push(`Preview Link: ${response.tracks.items[i].external_urls.spotify}`);
+                    data.push(`Album: ${response.tracks.items[i].album.name}`);
+                    logData();
                 }
             })
             .catch(function (err) {
@@ -65,16 +70,16 @@ function ombdAPI(movie) {
     axios.get(`http://www.omdbapi.com/?t=${movie}&apikey=trilogy`)
         .then(function (response) {
             // handle success
-            console.log("-----------------------------------------------------");
-            console.log(`Movie title: ${response.data.Title}`);
-            console.log(`Year: ${response.data.Year}`);
-            console.log(`IMBD rating: ${response.data.imdbRating}`);
-            console.log(`Rotten Tomatoes rating: ${response.data.Ratings[1].Value}`);
-            console.log(`Country: ${response.data.Country}`);
-            console.log(`Language: ${response.data.Language}`);
-            console.log(`Plot: ${response.data.Plot}`);
-            console.log(`Actors: ${response.data.Actors}`);
-
+            data.push(line);
+            data.push(`Movie title: ${response.data.Title}`);
+            data.push(`Year: ${response.data.Year}`);
+            data.push(`IMBD rating: ${response.data.imdbRating}`);
+            data.push(`Rotten Tomatoes rating: ${response.data.Ratings[1].Value}`);
+            data.push(`Country: ${response.data.Country}`);
+            data.push(`Language: ${response.data.Language}`);
+            data.push(`Plot: ${response.data.Plot}`);
+            data.push(`Actors: ${response.data.Actors}`);
+            logData();
         })
         .catch(function (error) {
             // handle error
@@ -89,12 +94,12 @@ function bandsAPI(band) {
         .then(function (response) {
             // handle success
             response.data.forEach(element => {
-                console.log("-----------------------------------------------------");
-                console.log(`${element.venue.name}`);
-                console.log(`${element.venue.city}, ${element.venue.region || element.venue.country}`, );
-                console.log(`${ moment(element.datetime).format('MMMM Do YYYY, h:mm:ss a')}`);
+                data.push(line);
+                data.push(`${element.venue.name}`);
+                data.push(`${element.venue.city}, ${element.venue.region || element.venue.country}`, );
+                data.push(`${ moment(element.datetime).format('MMMM Do YYYY, h:mm:ss a')}`);
+                logData();
             });
-
 
         })
         .catch(function (error) {
@@ -107,22 +112,36 @@ function doWhat() {
     fs.readFile("random.txt", "utf8", (error, data) => {
         if (error) throw error;
         let rdata = data.split(",");
-        console.log(rdata);
-
-
         spotifyAPI(rdata[1]);
     });
 }
+
+function logData() {
+    fs.appendFile("log.txt", "\n" + line + "\n" + line + "\n" + moment().format('MMMM Do YYYY, h:mm:ss a') + "\n" + "Command: " + command + "\n" + "Searched for: " + searchInput, function (err) {
+        if (err) {
+            return console.log(err);
+        }
+    });
+    data.forEach(element => {
+        console.log(element);
+        fs.appendFile("log.txt", "\n" + element, function (err) {
+            if (err) {
+                return console.log(err);
+            }
+        });
+    });
+    data = [];
+};
 
 formPhrase('LIRI Bot', {
     typephase: 'Varsity',
     color: 'blue'
 });
 
-console.log("-----------------------------------------------------");
+console.log(line);
 console.log("Command: ", command);
 console.log("Arguments: ", searchInput);
-console.log("-----------------------------------------------------");
+console.log(line);
 
 switch (command) {
     case "concert-this":
