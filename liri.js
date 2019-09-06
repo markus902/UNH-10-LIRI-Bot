@@ -90,22 +90,26 @@ function ombdAPI(movie) {
 //bandsAPI
 
 function bandsAPI(band) {
-    axios.get(`https://rest.bandsintown.com/artists/${band}/events?app_id=codingbootcamp`)
-        .then(function (response) {
-            // handle success
-            response.data.forEach(element => {
-                data.push(line);
-                data.push(`${element.venue.name}`);
-                data.push(`${element.venue.city}, ${element.venue.region || element.venue.country}`, );
-                data.push(`${ moment(element.datetime).format('MMMM Do YYYY, h:mm:ss a')}`);
-                logData();
-            });
+    if (searchInput == false) {
+        console.log("Please enter a band name.")
+    } else {
+        axios.get(`https://rest.bandsintown.com/artists/${band}/events?app_id=codingbootcamp`)
+            .then(function (response) {
+                // handle success
+                response.data.forEach(element => {
+                    data.push(line);
+                    data.push(`${element.venue.name}`);
+                    data.push(`${element.venue.city}, ${element.venue.region || element.venue.country}`, );
+                    data.push(`${ moment(element.datetime).format('MMMM Do YYYY, h:mm:ss a')}`);
+                    logData();
+                });
 
-        })
-        .catch(function (error) {
-            // handle error
-            console.log(error);
-        })
+            })
+            .catch(function (error) {
+                // handle error
+                console.log(error);
+            })
+    };
 };
 
 function doWhat() {

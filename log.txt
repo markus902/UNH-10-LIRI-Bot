@@ -23,3 +23,753 @@ Actors: Jared Leto, Sarah Polley, Diane Kruger, Linh Dan Pham
 IMBD rating: 7.8
 Rotten Tomatoes rating: 66%
 Year: 2009
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+September 5th 2019, 11:29:34 pm
+Command: spotify-this-song
+Searched for: 
+---------------------------------------------------------------------
+Album: The Sign (US Album) [Remastered]
+Artist: Ace of Base
+Preview Link: https://open.spotify.com/track/0hrBpAOgrt8RXigk83LLNE
+Song title: The Sign
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+September 5th 2019, 11:30:56 pm
+Command: spotify-this-song
+Searched for: Paradise City
+Preview Link: https://open.spotify.com/track/47cwv8IkPTw9o0jCSoAHsF
+Album: Rock of Ages (Original Motion Picture Soundtrack)
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+September 5th 2019, 11:30:56 pm
+Command: spotify-this-song
+Searched for: Paradise City
+---------------------------------------------------------------------
+Song title: Paradise City
+Artist: Guns N' Roses
+Preview Link: https://open.spotify.com/track/7aksrY4ST4kt90L0ZxqZvB
+Album: Appetite For Destruction (Super Deluxe Edition)
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+September 5th 2019, 11:30:56 pm
+Command: spotify-this-song
+Searched for: Paradise City
+---------------------------------------------------------------------
+Song title: Good Life
+Artist: Inner City
+Preview Link: https://open.spotify.com/track/5sJiLlgQKBL81QCTOkoLB5
+Album: Paradise
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+September 5th 2019, 11:30:56 pm
+Command: spotify-this-song
+Searched for: Paradise City
+---------------------------------------------------------------------
+Song title: Paradise City
+Artist: Pop Up!
+Preview Link: https://open.spotify.com/track/02nuHFoIUqCIIo4QV2H09v
+Album: Flavored
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+September 5th 2019, 11:30:56 pm
+Command: spotify-this-song
+Searched for: Paradise City
+---------------------------------------------------------------------
+Song title: Paradise City
+Artist: Guns N' Roses
+Preview Link: https://open.spotify.com/track/7EfoJQON8TZU0BIN3pX0TH
+Album: Greatest Hits
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+September 5th 2019, 11:30:56 pm
+Command: spotify-this-song
+Searched for: Paradise City
+---------------------------------------------------------------------
+Song title: Paradise City - Vibes Edition
+Artist: Various Artists
+Preview Link: https://open.spotify.com/track/0cOiSoDdmSUlMywkxMm61S
+Album: Bossa N' Roses
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+September 5th 2019, 11:30:56 pm
+Command: spotify-this-song
+Searched for: Paradise City
+---------------------------------------------------------------------
+Song title: Big Fun
+Artist: Inner City
+Preview Link: https://open.spotify.com/track/4PyhlL1vrSvPlhYLdphszr
+Album: Paradise
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+September 5th 2019, 11:30:56 pm
+Command: spotify-this-song
+Searched for: Paradise City
+---------------------------------------------------------------------
+Song title: Paradise
+Artist: City and Colour
+Preview Link: https://open.spotify.com/track/0erpikNFCBdbsyK4qx4h3b
+Album: The Hurry and the Harm
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+September 5th 2019, 11:30:56 pm
+Command: spotify-this-song
+Searched for: Paradise City
+---------------------------------------------------------------------
+Song title: Paradise City - Live
+Artist: Guns N' Roses
+Preview Link: https://open.spotify.com/track/1jNQk4PjuQoQxqgzr0X5kj
+Album: Live Era '87-'93
+Artist: Various Artists
+---------------------------------------------------------------------
+Song title: Paradise City
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+September 5th 2019, 11:32:09 pm
+Command: movie-this
+Searched for: 
+---------------------------------------------------------------------
+Rotten Tomatoes rating: 66%
+Country: Belgium, Germany, Canada, France, USA, UK
+Language: English, Mohawk
+Plot: A boy stands on a station platform as a train is about to leave. Should he go with his mother or stay with his father? Infinite possibilities arise from this decision. As long as he doesn't choose, anything is possible.
+Actors: Jared Leto, Sarah Polley, Diane Kruger, Linh Dan Pham
+IMBD rating: 7.8
+Movie title: Mr. Nobody
+Year: 2009
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+September 5th 2019, 11:32:57 pm
+Command: movie-this
+Searched for: Avatar
+---------------------------------------------------------------------
+Rotten Tomatoes rating: 82%
+Country: USA
+Language: English, Spanish
+Plot: A paraplegic Marine dispatched to the moon Pandora on a unique mission becomes torn between following his orders and protecting the world he feels is his home.
+Actors: Sam Worthington, Zoe Saldana, Sigourney Weaver, Stephen Lang
+IMBD rating: 7.8
+Movie title: Avatar
+Year: 2009
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+September 5th 2019, 11:34:02 pm
+Command: concert-this
+Searched for: Backstreet Boys
+September 6th 2019, 7:00:24 pm
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+September 5th 2019, 11:34:02 pm
+Command: concert-this
+Searched for: Backstreet Boys
+---------------------------------------------------------------------
+Sprint Center
+Kansas City, MO
+September 7th 2019, 7:00:29 pm
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+September 5th 2019, 11:34:02 pm
+Command: concert-this
+Searched for: Backstreet Boys
+---------------------------------------------------------------------
+CHI Health Center Omaha
+Omaha, NE
+September 8th 2019, 7:00:25 pm
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+September 5th 2019, 11:34:02 pm
+Command: concert-this
+Searched for: Backstreet Boys
+---------------------------------------------------------------------
+Bankers Life Fieldhouse
+Indianapolis, IN
+September 10th 2019, 7:00:16 pm
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+September 5th 2019, 11:34:02 pm
+Command: concert-this
+Searched for: Backstreet Boys
+---------------------------------------------------------------------
+Fiserv Forum
+Milwaukee, WI
+September 11th 2019, 7:00:21 pm
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+September 5th 2019, 11:34:02 pm
+Command: concert-this
+Searched for: Backstreet Boys
+---------------------------------------------------------------------
+KFC Yum! Center
+Louisville, KY
+September 13th 2019, 7:00:08 pm
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+September 5th 2019, 11:34:02 pm
+Command: concert-this
+Searched for: Backstreet Boys
+---------------------------------------------------------------------
+PPG Paints Arena
+Pittsburgh, PA
+September 14th 2019, 7:00:58 pm
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+September 5th 2019, 11:34:02 pm
+Command: concert-this
+Searched for: Backstreet Boys
+---------------------------------------------------------------------
+Prudential Center
+Newark, NJ
+September 15th 2019, 7:00:27 pm
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+September 5th 2019, 11:34:02 pm
+Command: concert-this
+Searched for: Backstreet Boys
+---------------------------------------------------------------------
+Hersheypark Stadium
+Hershey, PA
+September 16th 2019, 7:00:00 pm
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+September 5th 2019, 11:34:02 pm
+Command: concert-this
+Searched for: Backstreet Boys
+---------------------------------------------------------------------
+T-Mobile Arena
+Las Vegas, NV
+September 20th 2019, 7:30:00 pm
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+September 5th 2019, 11:34:02 pm
+Command: concert-this
+Searched for: Backstreet Boys
+---------------------------------------------------------------------
+DNA World Tour
+Tokyo, Japan
+October 12th 2019, 7:00:56 pm
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+September 5th 2019, 11:34:02 pm
+Command: concert-this
+Searched for: Backstreet Boys
+---------------------------------------------------------------------
+DNA World Tour
+Tokyo, Japan
+October 13th 2019, 7:00:04 pm
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+September 5th 2019, 11:34:02 pm
+Command: concert-this
+Searched for: Backstreet Boys
+---------------------------------------------------------------------
+DNA World Tour
+Higashi-osaka, Japan
+October 16th 2019, 7:00:58 pm
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+September 5th 2019, 11:34:02 pm
+Command: concert-this
+Searched for: Backstreet Boys
+---------------------------------------------------------------------
+DNA World Tour
+Macau, China
+October 19th 2019, 7:00:28 pm
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+September 5th 2019, 11:34:02 pm
+Command: concert-this
+Searched for: Backstreet Boys
+---------------------------------------------------------------------
+DNA World Tour
+Taipei, Taiwan
+October 22nd 2019, 7:00:38 pm
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+September 5th 2019, 11:34:02 pm
+Command: concert-this
+Searched for: Backstreet Boys
+---------------------------------------------------------------------
+DNA World Tour
+Bangkok, Thailand
+October 24th 2019, 7:00:52 pm
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+September 5th 2019, 11:34:02 pm
+Command: concert-this
+Searched for: Backstreet Boys
+---------------------------------------------------------------------
+DNA World Tour
+Jakarta, Indonesia
+October 26th 2019, 7:00:58 pm
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+September 5th 2019, 11:34:02 pm
+Command: concert-this
+Searched for: Backstreet Boys
+---------------------------------------------------------------------
+DNA World Tour
+Manila, Philippines
+October 28th 2019, 7:00:42 pm
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+September 5th 2019, 11:34:02 pm
+Command: concert-this
+Searched for: Backstreet Boys
+---------------------------------------------------------------------
+DNA World Tour
+Singapore, Singapore
+October 30th 2019, 7:00:13 pm
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+September 5th 2019, 11:34:02 pm
+Command: concert-this
+Searched for: Backstreet Boys
+---------------------------------------------------------------------
+Neal S Blaisdell Center
+Honolulu, HI
+November 2nd 2019, 7:00:09 pm
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+September 5th 2019, 11:34:02 pm
+Command: concert-this
+Searched for: Backstreet Boys
+---------------------------------------------------------------------
+Neal S Blaisdell Center
+Honolulu, HI
+November 3rd 2019, 7:00:42 pm
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+September 5th 2019, 11:34:02 pm
+Command: concert-this
+Searched for: Backstreet Boys
+---------------------------------------------------------------------
+Neal S Blaisdell Center
+Honolulu, HI
+November 5th 2019, 8:00:00 pm
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+September 5th 2019, 11:34:02 pm
+Command: concert-this
+Searched for: Backstreet Boys
+---------------------------------------------------------------------
+Neal S Blaisdell Center
+Honolulu, HI
+November 6th 2019, 8:00:00 pm
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+September 5th 2019, 11:34:02 pm
+Command: concert-this
+Searched for: Backstreet Boys
+---------------------------------------------------------------------
+DNA World Tour
+Mexico City, Mexico
+February 21st 2020, 7:00:00 pm
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+September 5th 2019, 11:34:02 pm
+Command: concert-this
+Searched for: Backstreet Boys
+---------------------------------------------------------------------
+DNA World Tour
+Monterrey, Mexico
+February 24th 2020, 7:00:00 pm
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+September 5th 2019, 11:34:02 pm
+Command: concert-this
+Searched for: Backstreet Boys
+---------------------------------------------------------------------
+DNA World Tour
+Fraccionamiento Los Silos, Mexico
+February 26th 2020, 7:00:00 pm
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+September 5th 2019, 11:34:02 pm
+Command: concert-this
+Searched for: Backstreet Boys
+---------------------------------------------------------------------
+DNA World Tour
+Guácima, Costa Rica
+February 28th 2020, 7:00:00 pm
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+September 5th 2019, 11:34:02 pm
+Command: concert-this
+Searched for: Backstreet Boys
+---------------------------------------------------------------------
+DNA World Tour
+Bogotá, Colombia
+March 1st 2020, 7:00:00 pm
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+September 5th 2019, 11:34:02 pm
+Command: concert-this
+Searched for: Backstreet Boys
+---------------------------------------------------------------------
+DNA World Tour
+La Florida, Chile
+March 4th 2020, 7:00:00 pm
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+September 5th 2019, 11:34:02 pm
+Command: concert-this
+Searched for: Backstreet Boys
+---------------------------------------------------------------------
+DNA World Tour
+Bwp, Argentina
+March 7th 2020, 7:00:00 pm
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+September 5th 2019, 11:34:02 pm
+Command: concert-this
+Searched for: Backstreet Boys
+---------------------------------------------------------------------
+DNA World Tour
+Montevideo, Uruguay
+March 8th 2020, 7:00:00 pm
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+September 5th 2019, 11:34:02 pm
+Command: concert-this
+Searched for: Backstreet Boys
+Ginásio Municipal Tancredo Neves
+March 11th 2020, 7:00:00 pm
+Uberlândia, Brazil
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+September 5th 2019, 11:34:02 pm
+Command: concert-this
+Searched for: Backstreet Boys
+---------------------------------------------------------------------
+DNA World Tour
+March 13th 2020, 7:00:00 pm
+Rio De Janeiro, Brazil
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+September 5th 2019, 11:34:02 pm
+Command: concert-this
+Searched for: Backstreet Boys
+---------------------------------------------------------------------
+DNA World Tour
+March 15th 2020, 7:00:00 pm
+Sao Paulo, Brazil
+---------------------------------------------------------------------
+Enterprise Center
+St. Louis, MO
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+September 5th 2019, 11:37:20 pm
+Command: do-what-it-says
+Searched for: 
+---------------------------------------------------------------------
+Album: The Sign (US Album) [Remastered]
+Artist: Ace of Base
+Preview Link: https://open.spotify.com/track/0hrBpAOgrt8RXigk83LLNE
+Song title: The Sign
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+September 5th 2019, 11:38:14 pm
+Command: concert-this
+Searched for: Backstreet Boys
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+September 5th 2019, 11:38:14 pm
+Command: concert-this
+Searched for: Backstreet Boys
+---------------------------------------------------------------------
+Sprint Center
+Kansas City, MO
+September 7th 2019, 7:00:29 pm
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+September 5th 2019, 11:38:14 pm
+Command: concert-this
+Searched for: Backstreet Boys
+---------------------------------------------------------------------
+CHI Health Center Omaha
+Omaha, NE
+September 8th 2019, 7:00:25 pm
+St. Louis, MO
+September 6th 2019, 7:00:24 pm
+Bankers Life Fieldhouse
+Indianapolis, IN
+September 10th 2019, 7:00:16 pm
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+September 5th 2019, 11:38:14 pm
+Command: concert-this
+Searched for: Backstreet Boys
+---------------------------------------------------------------------
+Fiserv Forum
+Milwaukee, WI
+September 11th 2019, 7:00:21 pm
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+September 5th 2019, 11:38:14 pm
+Command: concert-this
+Searched for: Backstreet Boys
+---------------------------------------------------------------------
+KFC Yum! Center
+Louisville, KY
+September 13th 2019, 7:00:08 pm
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+September 5th 2019, 11:38:14 pm
+Command: concert-this
+Searched for: Backstreet Boys
+---------------------------------------------------------------------
+Enterprise Center
+PPG Paints Arena
+September 14th 2019, 7:00:58 pm
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+September 5th 2019, 11:38:14 pm
+Command: concert-this
+Searched for: Backstreet Boys
+---------------------------------------------------------------------
+Prudential Center
+Newark, NJ
+September 15th 2019, 7:00:27 pm
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+September 5th 2019, 11:38:14 pm
+Command: concert-this
+Searched for: Backstreet Boys
+---------------------------------------------------------------------
+Hersheypark Stadium
+Hershey, PA
+September 16th 2019, 7:00:00 pm
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+September 5th 2019, 11:38:14 pm
+Command: concert-this
+Searched for: Backstreet Boys
+---------------------------------------------------------------------
+T-Mobile Arena
+Las Vegas, NV
+September 20th 2019, 7:30:00 pm
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+September 5th 2019, 11:38:14 pm
+Command: concert-this
+Searched for: Backstreet Boys
+---------------------------------------------------------------------
+DNA World Tour
+Tokyo, Japan
+October 12th 2019, 7:00:56 pm
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+September 5th 2019, 11:38:14 pm
+Command: concert-this
+Searched for: Backstreet Boys
+---------------------------------------------------------------------
+DNA World Tour
+---------------------------------------------------------------------
+October 13th 2019, 7:00:04 pm
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+September 5th 2019, 11:38:14 pm
+Command: concert-this
+Searched for: Backstreet Boys
+---------------------------------------------------------------------
+DNA World Tour
+Higashi-osaka, Japan
+October 16th 2019, 7:00:58 pm
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+September 5th 2019, 11:38:14 pm
+Command: concert-this
+Searched for: Backstreet Boys
+---------------------------------------------------------------------
+DNA World Tour
+Macau, China
+October 19th 2019, 7:00:28 pm
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+September 5th 2019, 11:38:14 pm
+Command: concert-this
+Searched for: Backstreet Boys
+---------------------------------------------------------------------
+DNA World Tour
+Taipei, Taiwan
+October 22nd 2019, 7:00:38 pm
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+September 5th 2019, 11:38:14 pm
+Command: concert-this
+Searched for: Backstreet Boys
+---------------------------------------------------------------------
+DNA World Tour
+Bangkok, Thailand
+October 24th 2019, 7:00:52 pm
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+September 5th 2019, 11:38:14 pm
+Command: concert-this
+Searched for: Backstreet Boys
+---------------------------------------------------------------------
+DNA World Tour
+Jakarta, Indonesia
+October 26th 2019, 7:00:58 pm
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+September 5th 2019, 11:38:14 pm
+Command: concert-this
+Searched for: Backstreet Boys
+Pittsburgh, PA
+DNA World Tour
+Manila, Philippines
+October 28th 2019, 7:00:42 pm
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+September 5th 2019, 11:38:14 pm
+Command: concert-this
+Searched for: Backstreet Boys
+---------------------------------------------------------------------
+DNA World Tour
+Singapore, Singapore
+October 30th 2019, 7:00:13 pm
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+September 5th 2019, 11:38:14 pm
+Command: concert-this
+Searched for: Backstreet Boys
+---------------------------------------------------------------------
+Neal S Blaisdell Center
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+September 5th 2019, 11:38:14 pm
+Command: concert-this
+Searched for: Backstreet Boys
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+September 5th 2019, 11:38:14 pm
+Command: concert-this
+Searched for: Backstreet Boys
+---------------------------------------------------------------------
+Neal S Blaisdell Center
+Honolulu, HI
+Honolulu, HI
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+September 5th 2019, 11:38:14 pm
+Command: concert-this
+Searched for: Backstreet Boys
+---------------------------------------------------------------------
+Neal S Blaisdell Center
+Honolulu, HI
+November 5th 2019, 8:00:00 pm
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+September 5th 2019, 11:38:14 pm
+Command: concert-this
+Searched for: Backstreet Boys
+---------------------------------------------------------------------
+Neal S Blaisdell Center
+Honolulu, HI
+November 6th 2019, 8:00:00 pm
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+September 5th 2019, 11:38:14 pm
+Command: concert-this
+Searched for: Backstreet Boys
+---------------------------------------------------------------------
+DNA World Tour
+Mexico City, Mexico
+February 21st 2020, 7:00:00 pm
+November 2nd 2019, 7:00:09 pm
+---------------------------------------------------------------------
+DNA World Tour
+Monterrey, Mexico
+February 24th 2020, 7:00:00 pm
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+September 5th 2019, 11:38:14 pm
+Command: concert-this
+Searched for: Backstreet Boys
+---------------------------------------------------------------------
+DNA World Tour
+Fraccionamiento Los Silos, Mexico
+February 26th 2020, 7:00:00 pm
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+September 5th 2019, 11:38:14 pm
+Command: concert-this
+Searched for: Backstreet Boys
+---------------------------------------------------------------------
+DNA World Tour
+Guácima, Costa Rica
+February 28th 2020, 7:00:00 pm
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+September 5th 2019, 11:38:14 pm
+Command: concert-this
+Searched for: Backstreet Boys
+---------------------------------------------------------------------
+DNA World Tour
+Bogotá, Colombia
+March 1st 2020, 7:00:00 pm
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+September 5th 2019, 11:38:14 pm
+Command: concert-this
+Searched for: Backstreet Boys
+---------------------------------------------------------------------
+DNA World Tour
+La Florida, Chile
+March 4th 2020, 7:00:00 pm
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+September 5th 2019, 11:38:14 pm
+Command: concert-this
+Searched for: Backstreet Boys
+---------------------------------------------------------------------
+DNA World Tour
+Bwp, Argentina
+March 7th 2020, 7:00:00 pm
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+September 5th 2019, 11:38:14 pm
+Command: concert-this
+Searched for: Backstreet Boys
+---------------------------------------------------------------------
+DNA World Tour
+Montevideo, Uruguay
+March 8th 2020, 7:00:00 pm
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+September 5th 2019, 11:38:14 pm
+Command: concert-this
+Searched for: Backstreet Boys
+---------------------------------------------------------------------
+Ginásio Municipal Tancredo Neves
+Uberlândia, Brazil
+March 11th 2020, 7:00:00 pm
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+September 5th 2019, 11:38:14 pm
+Command: concert-this
+Searched for: Backstreet Boys
+---------------------------------------------------------------------
+DNA World Tour
+Rio De Janeiro, Brazil
+March 13th 2020, 7:00:00 pm
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+September 5th 2019, 11:38:14 pm
+Command: concert-this
+Searched for: Backstreet Boys
+---------------------------------------------------------------------
+DNA World Tour
+Sao Paulo, Brazil
+March 15th 2020, 7:00:00 pm
+November 3rd 2019, 7:00:42 pm
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+September 5th 2019, 11:38:14 pm
+Command: concert-this
+Searched for: Backstreet Boys
+Tokyo, Japan
