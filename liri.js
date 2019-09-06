@@ -1,3 +1,5 @@
+// Modules
+
 require("dotenv").config();
 var moment = require('moment');
 const axios = require('axios');
@@ -5,40 +7,12 @@ var keys = require("./keys.js");
 var Spotify = require("node-spotify-api");
 var spotify = new Spotify(keys.spotify);
 var fs = require("fs");
-var formPhrase = require('font-ascii').default
+var formPhrase = require('font-ascii').default;
 
+// Input variables 
 var command = process.argv[2];
 var searchInput = process.argv.slice(3).join(" ");
 
-formPhrase('LIRI Bot', {
-    typephase: 'Ghost',
-    color: 'blue'
-});
-
-console.log("-----------------------------------------------------");
-console.log("Command: ", command);
-console.log("Arguments: ", searchInput);
-console.log("-----------------------------------------------------");
-
-switch (command) {
-    case "concert-this":
-        bandsAPI(searchInput);
-        break;
-    case "spotify-this-song":
-        spotifyAPI(searchInput);
-        break;
-    case "movie-this":
-        ombdAPI(searchInput.split(" ").join("+"));
-        break;
-    case "do-what-it-says":
-        doWhat();
-        break;
-    case undefined:
-        console.log("Please tell me what you want to do.");
-        break;
-    default:
-        console.log("You entered an invalid command.");
-}
 
 // Spotify API
 
@@ -119,9 +93,6 @@ function bandsAPI(band) {
                 console.log(`${element.venue.name}`);
                 console.log(`${element.venue.city}, ${element.venue.region || element.venue.country}`, );
                 console.log(`${ moment(element.datetime).format('MMMM Do YYYY, h:mm:ss a')}`);
-                // console.log(element.venue.city);
-                // console.log(element.venue.city);
-
             });
 
 
@@ -143,4 +114,32 @@ function doWhat() {
     });
 }
 
-//change
+formPhrase('LIRI Bot', {
+    typephase: 'Varsity',
+    color: 'blue'
+});
+
+console.log("-----------------------------------------------------");
+console.log("Command: ", command);
+console.log("Arguments: ", searchInput);
+console.log("-----------------------------------------------------");
+
+switch (command) {
+    case "concert-this":
+        bandsAPI(searchInput);
+        break;
+    case "spotify-this-song":
+        spotifyAPI(searchInput);
+        break;
+    case "movie-this":
+        ombdAPI(searchInput.split(" ").join("+"));
+        break;
+    case "do-what-it-says":
+        doWhat();
+        break;
+    case undefined:
+        console.log("Please tell me what you want to do.");
+        break;
+    default:
+        console.log("You entered an invalid command.");
+}
